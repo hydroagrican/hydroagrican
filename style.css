@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+  background: #f9fafb;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #d1fae5;
+}
+
+header .logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #10b981;
+  color: white;
+  font-weight: bold;
+  line-height: 50px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #065f46;
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2, h3 {
+  color: #065f46;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-primary { background: #10b981; color: white; }
+.btn-secondary { background: #f3f4f6; color: #065f46; border: 1px solid #d1fae5; }
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #10b981;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #d1fae5;
+}
